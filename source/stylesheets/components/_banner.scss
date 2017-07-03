@@ -22,3 +22,17 @@
 .banner .btn {
   margin-top: 20px;
 }
+
+.banner {
+  background: #5E74ED;
+  color: white;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner a {
+  color: $red;
+}
+.banner a:hover {
+  color: $red;
+}
