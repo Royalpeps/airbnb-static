@@ -3,11 +3,20 @@ title: Le Wagon Middleman boilerplate
 ---
 
 <!-- Your banner code -->
-<div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
   <div class="banner-content">
     <h1>WELCOME HOME</h1>
     <p>Rent unique places to stay from local hosts in 190+ countries.</p>
-    <a class="btn btn-primary btn-lg">How it works</a>
+    <form action="#" class="form-inline">
+      <input type="text" class="form-control input-lg" placeholder="checkin">
+      <input type="text" class="form-control input-lg" placeholder="checkout">
+      <select name="" id="" class="form-control input-lg">
+        <option value="1">1 person</option>
+        <option value="2">2 persons</option>
+        <option value="3">3 persons</option>
+      </select>
+      <input type="submit" class="btn btn-primary btn-lg" value="Search">
+    </form>
   </div>
 </div>
 
@@ -52,7 +61,7 @@ title: Le Wagon Middleman boilerplate
             <p>Charming room with patio</p>
           </div>
           <img class="card-user avatar avatar-large" src="images/seb.jpg">
-          <a class="card-link" href="#"></a>
+          <a class="card-link" href="seb_flat.html.erb"></a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -63,7 +72,7 @@ title: Le Wagon Middleman boilerplate
             <p>Lovely house</p>
           </div>
           <img class="card-user avatar avatar-large" src="images/anne.jpg">
-          <a class="card-link" href="#"></a>
+          <a class="card-link" href="anne_flat.html.erb"></a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -73,8 +82,8 @@ title: Le Wagon Middleman boilerplate
             <h2>Romain's home</h2>
             <p>Nice flat in Piccadilly</p>
           </div>
-          <img class="card-user avatar avatar-large" src="images/romain.jpeg">
-          <a class="card-link" href="#"></a>
+          <img class="card-user avatar avatar-large" src="images/romain.jpg">
+          <a class="card-link" href="romain_flat.html.erb"></a>
         </div>
       </div>
     </div>

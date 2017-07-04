@@ -1,0 +1,28 @@
+# data/flats.yml
+seb:
+  owner_name: Sebastien Saunier
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Seb's home
+  number_living: 10
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Romain's home
+  number_living: 5
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+anne:
+  owner_name: Anne Anne
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Anne's home
+  number_living: 6
+  summary: Nice flat in Place Royale
+  city: Nantes, France
+  wifi: false
